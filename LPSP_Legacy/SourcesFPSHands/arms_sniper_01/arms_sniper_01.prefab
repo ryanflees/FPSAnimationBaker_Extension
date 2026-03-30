@@ -1,0 +1,211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &9055610234248562290
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100012, guid: b3236689d20e81b4493519925058781a, type: 3}
+      propertyPath: m_Name
+      value: arms_sniper_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 100042, guid: b3236689d20e81b4493519925058781a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: b3236689d20e81b4493519925058781a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: b3236689d20e81b4493519925058781a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: b3236689d20e81b4493519925058781a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: b3236689d20e81b4493519925058781a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: b3236689d20e81b4493519925058781a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: b3236689d20e81b4493519925058781a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: b3236689d20e81b4493519925058781a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: b3236689d20e81b4493519925058781a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: b3236689d20e81b4493519925058781a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: b3236689d20e81b4493519925058781a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: b3236689d20e81b4493519925058781a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f6b03dfca5aa46f4cb0948e0579261b9, type: 2}
+    - target: {fileID: 9500000, guid: b3236689d20e81b4493519925058781a, type: 3}
+      propertyPath: m_CullingMode
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100012, guid: b3236689d20e81b4493519925058781a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1218776834954836664}
+  m_SourcePrefab: {fileID: 100100000, guid: b3236689d20e81b4493519925058781a, type: 3}
+--- !u!137 &9055610234236964304 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 13700002, guid: b3236689d20e81b4493519925058781a, type: 3}
+  m_PrefabInstance: {fileID: 9055610234248562290}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &9055610234236964306 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 13700000, guid: b3236689d20e81b4493519925058781a, type: 3}
+  m_PrefabInstance: {fileID: 9055610234248562290}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &9055610234236964308 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 13700006, guid: b3236689d20e81b4493519925058781a, type: 3}
+  m_PrefabInstance: {fileID: 9055610234248562290}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &9055610234236964310 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 13700004, guid: b3236689d20e81b4493519925058781a, type: 3}
+  m_PrefabInstance: {fileID: 9055610234248562290}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &9055610234241282834 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9500000, guid: b3236689d20e81b4493519925058781a, type: 3}
+  m_PrefabInstance: {fileID: 9055610234248562290}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9055610234248174784 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400050, guid: b3236689d20e81b4493519925058781a, type: 3}
+  m_PrefabInstance: {fileID: 9055610234248562290}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9055610234248174786 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400048, guid: b3236689d20e81b4493519925058781a, type: 3}
+  m_PrefabInstance: {fileID: 9055610234248562290}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9055610234248174800 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400034, guid: b3236689d20e81b4493519925058781a, type: 3}
+  m_PrefabInstance: {fileID: 9055610234248562290}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9055610234248174802 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400032, guid: b3236689d20e81b4493519925058781a, type: 3}
+  m_PrefabInstance: {fileID: 9055610234248562290}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9055610234248174832 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400002, guid: b3236689d20e81b4493519925058781a, type: 3}
+  m_PrefabInstance: {fileID: 9055610234248562290}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9055610234248174834 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: b3236689d20e81b4493519925058781a, type: 3}
+  m_PrefabInstance: {fileID: 9055610234248562290}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &9055610234248528094 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: b3236689d20e81b4493519925058781a, type: 3}
+  m_PrefabInstance: {fileID: 9055610234248562290}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1218776834954836664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9055610234248528094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 434698d44960b7c4bac069a751d573ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Animator: {fileID: 9055610234241282834}
+  m_LeftShoulder: {fileID: 9055610234248174834}
+  m_LeftElbow: {fileID: 9055610234248174786}
+  m_LeftHand: {fileID: 9055610234248174802}
+  m_RightShoulder: {fileID: 9055610234248174832}
+  m_RightElbow: {fileID: 9055610234248174784}
+  m_RightHand: {fileID: 9055610234248174800}
+  m_HandRenderers:
+  - {fileID: 9055610234236964306}
+  m_WeaponRenderers:
+  - {fileID: 9055610234236964304}
+  - {fileID: 9055610234236964308}
+  - {fileID: 9055610234236964310}
+  m_AnimationCellList:
+  - m_Layer: 0
+    m_CellName: aim_fire
+    m_MainAnimatorState: aim_fire
+  - m_Layer: 0
+    m_CellName: aim_fire_pose
+    m_MainAnimatorState: aim_fire_pose
+  - m_Layer: 0
+    m_CellName: aim_in
+    m_MainAnimatorState: aim_in
+  - m_Layer: 0
+    m_CellName: aim_out
+    m_MainAnimatorState: aim_out
+  - m_Layer: 0
+    m_CellName: fire
+    m_MainAnimatorState: fire
+  - m_Layer: 0
+    m_CellName: grenade_throw
+    m_MainAnimatorState: grenade_throw
+  - m_Layer: 0
+    m_CellName: holster_weapon
+    m_MainAnimatorState: holster_weapon
+  - m_Layer: 0
+    m_CellName: idle
+    m_MainAnimatorState: idle
+  - m_Layer: 0
+    m_CellName: inspect_weapon
+    m_MainAnimatorState: inspect_weapon
+  - m_Layer: 0
+    m_CellName: knife_attack_1
+    m_MainAnimatorState: knife_attack_1
+  - m_Layer: 0
+    m_CellName: knife_attack_2
+    m_MainAnimatorState: knife_attack_2
+  - m_Layer: 0
+    m_CellName: reload_close
+    m_MainAnimatorState: reload_close
+  - m_Layer: 0
+    m_CellName: reload_insert
+    m_MainAnimatorState: reload_insert
+  - m_Layer: 0
+    m_CellName: reload_open
+    m_MainAnimatorState: reload_open
+  - m_Layer: 0
+    m_CellName: run
+    m_MainAnimatorState: run
+  - m_Layer: 0
+    m_CellName: take_out_weapon
+    m_MainAnimatorState: take_out_weapon
+  - m_Layer: 0
+    m_CellName: walk
+    m_MainAnimatorState: walk

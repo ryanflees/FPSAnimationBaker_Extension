@@ -1,0 +1,267 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7917369875702775526
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100012, guid: 20d5945209bdc804891f29a868e7d4b0, type: 3}
+      propertyPath: m_Name
+      value: arms_handgun_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 100046, guid: 20d5945209bdc804891f29a868e7d4b0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100066, guid: 20d5945209bdc804891f29a868e7d4b0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100068, guid: 20d5945209bdc804891f29a868e7d4b0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 20d5945209bdc804891f29a868e7d4b0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 20d5945209bdc804891f29a868e7d4b0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 20d5945209bdc804891f29a868e7d4b0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 20d5945209bdc804891f29a868e7d4b0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 20d5945209bdc804891f29a868e7d4b0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 20d5945209bdc804891f29a868e7d4b0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 20d5945209bdc804891f29a868e7d4b0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 20d5945209bdc804891f29a868e7d4b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 20d5945209bdc804891f29a868e7d4b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 20d5945209bdc804891f29a868e7d4b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 20d5945209bdc804891f29a868e7d4b0, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f20219a9ec5cd144389dadfd23e85ca6, type: 2}
+    - target: {fileID: 9500000, guid: 20d5945209bdc804891f29a868e7d4b0, type: 3}
+      propertyPath: m_CullingMode
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100012, guid: 20d5945209bdc804891f29a868e7d4b0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3275535087208464837}
+  m_SourcePrefab: {fileID: 100100000, guid: 20d5945209bdc804891f29a868e7d4b0, type: 3}
+--- !u!95 &7917369875695438726 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9500000, guid: 20d5945209bdc804891f29a868e7d4b0, type: 3}
+  m_PrefabInstance: {fileID: 7917369875702775526}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &7917369875699692864 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 13700006, guid: 20d5945209bdc804891f29a868e7d4b0, type: 3}
+  m_PrefabInstance: {fileID: 7917369875702775526}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &7917369875699692866 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 13700004, guid: 20d5945209bdc804891f29a868e7d4b0, type: 3}
+  m_PrefabInstance: {fileID: 7917369875702775526}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &7917369875699692868 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 13700002, guid: 20d5945209bdc804891f29a868e7d4b0, type: 3}
+  m_PrefabInstance: {fileID: 7917369875702775526}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &7917369875699692870 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 13700000, guid: 20d5945209bdc804891f29a868e7d4b0, type: 3}
+  m_PrefabInstance: {fileID: 7917369875702775526}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &7917369875699692872 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 13700014, guid: 20d5945209bdc804891f29a868e7d4b0, type: 3}
+  m_PrefabInstance: {fileID: 7917369875702775526}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &7917369875699692874 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 13700012, guid: 20d5945209bdc804891f29a868e7d4b0, type: 3}
+  m_PrefabInstance: {fileID: 7917369875702775526}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &7917369875699692876 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 13700010, guid: 20d5945209bdc804891f29a868e7d4b0, type: 3}
+  m_PrefabInstance: {fileID: 7917369875702775526}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &7917369875699692878 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 13700008, guid: 20d5945209bdc804891f29a868e7d4b0, type: 3}
+  m_PrefabInstance: {fileID: 7917369875702775526}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7917369875702637636 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400034, guid: 20d5945209bdc804891f29a868e7d4b0, type: 3}
+  m_PrefabInstance: {fileID: 7917369875702775526}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7917369875702637638 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400032, guid: 20d5945209bdc804891f29a868e7d4b0, type: 3}
+  m_PrefabInstance: {fileID: 7917369875702775526}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7917369875702637652 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400050, guid: 20d5945209bdc804891f29a868e7d4b0, type: 3}
+  m_PrefabInstance: {fileID: 7917369875702775526}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7917369875702637654 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400048, guid: 20d5945209bdc804891f29a868e7d4b0, type: 3}
+  m_PrefabInstance: {fileID: 7917369875702775526}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7917369875702637668 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400002, guid: 20d5945209bdc804891f29a868e7d4b0, type: 3}
+  m_PrefabInstance: {fileID: 7917369875702775526}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7917369875702637670 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 20d5945209bdc804891f29a868e7d4b0, type: 3}
+  m_PrefabInstance: {fileID: 7917369875702775526}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7917369875702872138 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: 20d5945209bdc804891f29a868e7d4b0, type: 3}
+  m_PrefabInstance: {fileID: 7917369875702775526}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3275535087208464837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7917369875702872138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 434698d44960b7c4bac069a751d573ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Animator: {fileID: 7917369875695438726}
+  m_LeftShoulder: {fileID: 7917369875702637670}
+  m_LeftElbow: {fileID: 7917369875702637654}
+  m_LeftHand: {fileID: 7917369875702637638}
+  m_RightShoulder: {fileID: 7917369875702637668}
+  m_RightElbow: {fileID: 7917369875702637652}
+  m_RightHand: {fileID: 7917369875702637636}
+  m_HandRenderers:
+  - {fileID: 7917369875699692870}
+  m_WeaponRenderers:
+  - {fileID: 7917369875699692866}
+  - {fileID: 7917369875699692868}
+  - {fileID: 7917369875699692864}
+  - {fileID: 7917369875699692876}
+  - {fileID: 7917369875699692874}
+  - {fileID: 7917369875699692872}
+  - {fileID: 7917369875699692878}
+  m_AnimationCellList:
+  - m_Layer: 0
+    m_CellName: aim_fire
+    m_MainAnimatorState: aim_fire
+  - m_Layer: 0
+    m_CellName: aim_fire_pose
+    m_MainAnimatorState: aim_fire_pose
+  - m_Layer: 0
+    m_CellName: aim_fire_pose_scope_02
+    m_MainAnimatorState: aim_fire_pose_scope_02
+  - m_Layer: 0
+    m_CellName: aim_fire_pose_scope_03
+    m_MainAnimatorState: aim_fire_pose_scope_03
+  - m_Layer: 0
+    m_CellName: aim_fire_scope_02
+    m_MainAnimatorState: aim_fire_scope_02
+  - m_Layer: 0
+    m_CellName: aim_fire_scope_03
+    m_MainAnimatorState: aim_fire_scope_03
+  - m_Layer: 0
+    m_CellName: aim_in
+    m_MainAnimatorState: aim_in
+  - m_Layer: 0
+    m_CellName: aim_in_scope_02
+    m_MainAnimatorState: aim_in_scope_02
+  - m_Layer: 0
+    m_CellName: aim_in_scope_03
+    m_MainAnimatorState: aim_in_scope_03
+  - m_Layer: 0
+    m_CellName: aim_out
+    m_MainAnimatorState: aim_out
+  - m_Layer: 0
+    m_CellName: aim_out_scope_02
+    m_MainAnimatorState: aim_out_scope_02
+  - m_Layer: 0
+    m_CellName: aim_out_scope_03
+    m_MainAnimatorState: aim_out_scope_03
+  - m_Layer: 0
+    m_CellName: fire
+    m_MainAnimatorState: fire
+  - m_Layer: 0
+    m_CellName: grenade_throw
+    m_MainAnimatorState: grenade_throw
+  - m_Layer: 0
+    m_CellName: holster_weapon
+    m_MainAnimatorState: holster_weapon
+  - m_Layer: 0
+    m_CellName: idle
+    m_MainAnimatorState: idle
+  - m_Layer: 0
+    m_CellName: inspect_weapon
+    m_MainAnimatorState: inspect_weapon
+  - m_Layer: 0
+    m_CellName: knife_attack_1
+    m_MainAnimatorState: knife_attack_1
+  - m_Layer: 0
+    m_CellName: knife_attack_2
+    m_MainAnimatorState: knife_attack_2
+  - m_Layer: 0
+    m_CellName: out_of_ammo_slider
+    m_MainAnimatorState: out_of_ammo_slider
+  - m_Layer: 0
+    m_CellName: reload_ammo_left
+    m_MainAnimatorState: reload_ammo_left
+  - m_Layer: 0
+    m_CellName: reload_out_of_ammo
+    m_MainAnimatorState: reload_out_of_ammo
+  - m_Layer: 0
+    m_CellName: run
+    m_MainAnimatorState: run
+  - m_Layer: 0
+    m_CellName: take_out_weapon
+    m_MainAnimatorState: take_out_weapon
+  - m_Layer: 0
+    m_CellName: walk
+    m_MainAnimatorState: walk

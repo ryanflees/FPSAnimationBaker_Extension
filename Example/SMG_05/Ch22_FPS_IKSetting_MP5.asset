@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b7a779b2a3388d40aa25570656bda7d, type: 3}
+  m_Name: Ch22_FPS_IKSetting_MP5
+  m_EditorClassIdentifier: 
+  leftForwardAxis: {x: 0, y: 0, z: 1}
+  leftUpAxis: {x: 0, y: 1, z: 0}
+  leftHandPosOffset: {x: 0.007925644, y: 0.0112544345, z: 0.010378549}
+  leftHandRotOffset: {x: 290.29236, y: 145.18016, z: 306.55905}
+  leftTwistOffset: 0
+  rightForwardAxis: {x: 0, y: 0, z: 1}
+  rightUpAxis: {x: 1, y: 0, z: 0}
+  rightHandPosOffset: {x: 0.024533864, y: -0.0018751812, z: -0.020173218}
+  rightHandRotOffset: {x: 78.292625, y: 204.54132, z: 114.99954}
+  rightTwistOffset: 0
+  weight: 1
+  twistWeight: 1
+  maxTwistLimit: 75
